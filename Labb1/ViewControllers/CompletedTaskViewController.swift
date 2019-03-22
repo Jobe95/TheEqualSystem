@@ -30,7 +30,7 @@ class CompletedTaskViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        completeTaskButton.backgroundColor = UIColor .flatGray()
+        completeTaskButton.backgroundColor = UIColor .flatNavyBlue()
         navigationItem.title = "Complete Task"
         topContainer.backgroundColor = UIColor(white: 0.4, alpha: 0.5)
         topContainer.layer.cornerRadius = 8.0
