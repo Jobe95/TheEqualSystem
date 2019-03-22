@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         registerButtonOutlet.backgroundColor = UIColor .flatNavyBlue()
         
         
-        
+        // Lite ändringar flr github
         navigationItem.title = "Welcome"
     }
     @IBAction func loginButtonPressed(_ sender: UIButton) {
