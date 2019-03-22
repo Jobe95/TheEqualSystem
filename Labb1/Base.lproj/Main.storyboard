@@ -651,26 +651,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_1" translatesAutoresizingMaskIntoConstraints="NO" id="Ds1-06-XpG">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="michal-grosicki-235026" translatesAutoresizingMaskIntoConstraints="NO" id="Ds1-06-XpG">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="795-3v-VZD" userLabel="TopContainer">
-                                <rect key="frame" x="0.0" y="61" width="375" height="171"/>
+                                <rect key="frame" x="16" y="63" width="343" height="171"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Taskname" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="H4X-wp-dOZ">
-                                        <rect key="frame" x="16" y="32" width="343" height="30"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Value" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gvn-FX-TTB">
-                                        <rect key="frame" x="16" y="70" width="343" height="30"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Taskname" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="H4X-wp-dOZ">
+                                        <rect key="frame" x="8" y="32" width="327" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nVh-G6-i97">
-                                        <rect key="frame" x="16" y="108" width="343" height="30"/>
+                                        <rect key="frame" x="8" y="108" width="327" height="30"/>
                                         <color key="backgroundColor" red="1" green="0.56029358969999998" blue="0.53870648639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Save">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -679,29 +673,35 @@
                                             <action selector="saveTaskButtonPressed:" destination="X7z-zS-xVf" eventType="touchUpInside" id="eAn-1d-vne"/>
                                         </connections>
                                     </button>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Value" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gvn-FX-TTB">
+                                        <rect key="frame" x="8" y="70" width="327" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="nVh-G6-i97" secondAttribute="trailing" constant="8" id="2pN-GE-DkG"/>
                                     <constraint firstAttribute="height" constant="171" id="7Bd-z8-q5e"/>
-                                    <constraint firstItem="nVh-G6-i97" firstAttribute="leading" secondItem="795-3v-VZD" secondAttribute="leading" constant="16" id="DeI-5e-T5R"/>
-                                    <constraint firstAttribute="trailing" secondItem="Gvn-FX-TTB" secondAttribute="trailing" constant="16" id="Kgy-Nh-eJp"/>
+                                    <constraint firstAttribute="trailing" secondItem="H4X-wp-dOZ" secondAttribute="trailing" constant="8" id="GFp-OD-nG6"/>
                                     <constraint firstItem="H4X-wp-dOZ" firstAttribute="top" secondItem="795-3v-VZD" secondAttribute="top" constant="32" id="R2V-fV-2Wl"/>
+                                    <constraint firstItem="nVh-G6-i97" firstAttribute="leading" secondItem="795-3v-VZD" secondAttribute="leading" constant="8" id="R4s-kq-Wlf"/>
+                                    <constraint firstAttribute="trailing" secondItem="Gvn-FX-TTB" secondAttribute="trailing" constant="8" id="SgI-hA-xRB"/>
+                                    <constraint firstItem="Gvn-FX-TTB" firstAttribute="leading" secondItem="795-3v-VZD" secondAttribute="leading" constant="8" id="UtG-Fb-rRc"/>
                                     <constraint firstItem="Gvn-FX-TTB" firstAttribute="top" secondItem="H4X-wp-dOZ" secondAttribute="bottom" constant="8" id="W09-U9-pxf"/>
-                                    <constraint firstAttribute="trailing" secondItem="nVh-G6-i97" secondAttribute="trailing" constant="16" id="f0g-AL-ZHx"/>
-                                    <constraint firstItem="H4X-wp-dOZ" firstAttribute="leading" secondItem="795-3v-VZD" secondAttribute="leading" constant="16" id="mGX-ve-bs4"/>
-                                    <constraint firstAttribute="trailing" secondItem="H4X-wp-dOZ" secondAttribute="trailing" constant="16" id="qOn-8M-s9G"/>
-                                    <constraint firstItem="Gvn-FX-TTB" firstAttribute="leading" secondItem="795-3v-VZD" secondAttribute="leading" constant="16" id="rYK-t4-0hB"/>
+                                    <constraint firstItem="H4X-wp-dOZ" firstAttribute="leading" secondItem="795-3v-VZD" secondAttribute="leading" constant="8" id="qmS-rk-dbZ"/>
                                     <constraint firstItem="nVh-G6-i97" firstAttribute="top" secondItem="Gvn-FX-TTB" secondAttribute="bottom" constant="8" id="vqU-bw-eJV"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="795-3v-VZD" firstAttribute="trailing" secondItem="BRo-pO-cet" secondAttribute="trailing" id="0eS-rr-pdB"/>
                             <constraint firstAttribute="bottom" secondItem="Ds1-06-XpG" secondAttribute="bottom" id="DHd-40-5fh"/>
-                            <constraint firstItem="795-3v-VZD" firstAttribute="leading" secondItem="BRo-pO-cet" secondAttribute="leading" id="Vt6-Kl-vW6"/>
+                            <constraint firstItem="BRo-pO-cet" firstAttribute="trailing" secondItem="795-3v-VZD" secondAttribute="trailing" constant="16" id="SwG-KZ-Llg"/>
                             <constraint firstAttribute="trailing" secondItem="Ds1-06-XpG" secondAttribute="trailing" id="YeJ-Ne-Gir"/>
                             <constraint firstItem="Ds1-06-XpG" firstAttribute="leading" secondItem="xXk-Ed-mYf" secondAttribute="leading" id="ds4-me-UZS"/>
-                            <constraint firstItem="795-3v-VZD" firstAttribute="top" secondItem="BRo-pO-cet" secondAttribute="top" constant="41" id="eoE-uB-lz5"/>
+                            <constraint firstItem="795-3v-VZD" firstAttribute="top" secondItem="BRo-pO-cet" secondAttribute="top" constant="43" id="e60-7H-guc"/>
+                            <constraint firstItem="795-3v-VZD" firstAttribute="leading" secondItem="BRo-pO-cet" secondAttribute="leading" constant="16" id="e9b-S5-aWS"/>
                             <constraint firstItem="Ds1-06-XpG" firstAttribute="top" secondItem="xXk-Ed-mYf" secondAttribute="top" id="hTK-xZ-iwb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="BRo-pO-cet"/>
@@ -709,6 +709,7 @@
                     <connections>
                         <outlet property="registerTaskButton" destination="nVh-G6-i97" id="C9v-lN-VGS"/>
                         <outlet property="taskNameTextField" destination="H4X-wp-dOZ" id="CoT-Ny-eub"/>
+                        <outlet property="topContainerView" destination="795-3v-VZD" id="Oay-oN-ETL"/>
                         <outlet property="valueTextField" destination="Gvn-FX-TTB" id="oD4-oU-ldQ"/>
                         <segue destination="I14-W1-ZeA" kind="show" identifier="goToTasks" id="c1s-Wj-Vge"/>
                     </connections>
@@ -725,7 +726,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="federico-bottos-1150045-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="Z6R-EL-454">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="michal-grosicki-235026" translatesAutoresizingMaskIntoConstraints="NO" id="Z6R-EL-454">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AtU-aH-AUf" userLabel="TopContainer">
@@ -791,13 +792,12 @@
         <image name="Money" width="128" height="128"/>
         <image name="austin-smart-70350" width="5230" height="3269"/>
         <image name="back_btn_light" width="14" height="25"/>
-        <image name="background_1" width="213" height="378.5"/>
         <image name="clem-onojeghuo-196232" width="5400" height="3600"/>
-        <image name="federico-bottos-1150045-unsplash" width="2667" height="4000"/>
         <image name="francesco-gallarotti-2497" width="1824" height="1216"/>
+        <image name="michal-grosicki-235026" width="4592" height="3448"/>
         <image name="rodion-kutsaev-82627" width="2000" height="1333"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="2Qi-9d-TlX"/>
+        <segue reference="c1s-Wj-Vge"/>
     </inferredMetricsTieBreakers>
 </document>

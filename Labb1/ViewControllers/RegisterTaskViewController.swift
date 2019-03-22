@@ -14,16 +14,19 @@ class RegisterTaskViewController: UIViewController {
     @IBOutlet weak var taskNameTextField: UITextField!
     @IBOutlet weak var valueTextField: UITextField!
     
+    @IBOutlet weak var topContainerView: UIView!
+    
     @IBOutlet weak var registerTaskButton: UIButton!
     let db = Firestore.firestore()
     let currentUser = Auth.auth().currentUser
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         navigationItem.title = "Register Task"
         registerTaskButton.backgroundColor = UIColor .flatNavyBlue()
+        topContainerView.backgroundColor = UIColor (white: 0.4, alpha: 0.5)
+        topContainerView.layer.cornerRadius = 8.0
 
         // Do any additional setup after loading the view.
     }

@@ -32,7 +32,7 @@ class CompletedTaskViewController: UIViewController {
         
         completeTaskButton.backgroundColor = UIColor .flatGray()
         navigationItem.title = "Complete Task"
-        topContainer.backgroundColor = UIColor(white: 0.2, alpha: 0.5)
+        topContainer.backgroundColor = UIColor(white: 0.4, alpha: 0.5)
         topContainer.layer.cornerRadius = 8.0
         
         getUserDetails()
