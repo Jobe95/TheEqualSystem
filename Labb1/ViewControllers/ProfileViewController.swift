@@ -43,7 +43,6 @@ class ProfileViewController: UIViewController, UITableViewDelegate, UITableViewD
         profileView.layer.cornerRadius = 8.0
         profileView.backgroundColor = UIColor(white: 1, alpha: 0.5)
         
-        
         getUsersInformation()
         // Do any additional setup after loading the view.
     }
@@ -58,7 +57,6 @@ class ProfileViewController: UIViewController, UITableViewDelegate, UITableViewD
             else {
                 for document in snapshot!.documents {
                     //print("\(document.documentID) => \(document.data())")
-                    
                     if let dictionary = document.data() as? [String : Any] {
                         
                         let id = dictionary["userID"] as! String

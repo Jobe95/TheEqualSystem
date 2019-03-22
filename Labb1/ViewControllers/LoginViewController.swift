@@ -11,7 +11,6 @@ import Firebase
 
 class LoginViewController: UIViewController {
 
-    
     @IBOutlet weak var loginButtonOutlet: UIButton!
     
     @IBOutlet weak var emailTextField: UITextField!
