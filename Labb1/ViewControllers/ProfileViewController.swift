@@ -43,6 +43,7 @@ class ProfileViewController: UIViewController, UITableViewDelegate, UITableViewD
         profileView.layer.cornerRadius = 8.0
         profileView.backgroundColor = UIColor(white: 1, alpha: 0.5)
         
+        
         getUsersInformation()
         // Do any additional setup after loading the view.
     }
