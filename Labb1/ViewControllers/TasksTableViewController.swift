@@ -122,6 +122,28 @@ class TasksTableViewController: UITableViewController {
     
     // MARK: - Table view data source
 
+    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        return true
+    }
+    
+    //Deleting row with swipe, handles the action
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if (editingStyle == .delete) {
+            db.collection("tasks").document(taskArray[indexPath.row].taskIdFromDB).delete {
+                (error) in
+                if error != nil {
+                    print("Something went wrong with deleting task\(error!)")
+                }
+                else {
+                    print("Deleted task successfull!")
+                    self.taskArray.remove(at: indexPath.row)
+                    self.tasksTableView.deleteRows(at: [indexPath], with: .fade)
+                    self.tasksTableView.reloadData()
+                }
+            }
+        }
+    }
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
