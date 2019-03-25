@@ -9,6 +9,7 @@
 import UIKit
 import Firebase
 import ChameleonFramework
+import SVProgressHUD
 
 class TasksTableViewController: UITableViewController {
     

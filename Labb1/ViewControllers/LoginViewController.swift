@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import SVProgressHUD
 
 class LoginViewController: UIViewController {
 
@@ -25,6 +26,9 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func loginButtonPressed(_ sender: UIButton) {
+        SVProgressHUD.show()
+        loginButtonOutlet.isEnabled = false
+        
         Auth.auth().signIn(withEmail: emailTextField.text!, password: passwordTextField.text!) {
             (user, error) in
             if error != nil {
@@ -40,6 +44,8 @@ class LoginViewController: UIViewController {
                     print("Something went wrong, user is not signed in!")
                 }
             }
+            SVProgressHUD.dismiss()
+            self.loginButtonOutlet.isEnabled = true
         }
     }
 }

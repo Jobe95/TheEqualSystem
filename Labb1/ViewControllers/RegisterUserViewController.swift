@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import SVProgressHUD
 
 class RegisterUserViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
@@ -69,6 +70,9 @@ class RegisterUserViewController: UIViewController, UIImagePickerControllerDeleg
     
     @IBAction func registerButtonPressed(_ sender: UIButton) {
         
+        SVProgressHUD.show()
+        registerButton.isEnabled = false
+        
         Auth.auth().createUser(withEmail: emailTextField.text!, password: passwordTextField.text!) {
             (user, error) in
             
@@ -108,6 +112,8 @@ class RegisterUserViewController: UIViewController, UIImagePickerControllerDeleg
                             })
                             print(metadata!)
                         }
+                        self.registerButton.isEnabled = true
+                        SVProgressHUD.dismiss()
                     })
                 }
             }
