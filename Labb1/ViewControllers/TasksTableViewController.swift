@@ -18,13 +18,6 @@ class TasksTableViewController: UITableViewController {
     
     var taskArray = [Tasks]()
     
-    var tasksFromFirebase = [String]()
-    var valuesFromFirebase = [Int]()
-    var ownerFromFirebase = [String]()
-    var taskIdFromFirebase = [String]()
-    var imageOfUserTask = [String]()
-    
-    
     @IBOutlet weak var cellContainerView: UIView!
     @IBOutlet var tasksTableView: UITableView!
     override func viewDidLoad() {
