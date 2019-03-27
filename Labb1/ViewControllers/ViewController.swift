@@ -20,8 +20,6 @@ class ViewController: UIViewController {
         loginButtonOutlet.backgroundColor = UIColor .flatGray()
         registerButtonOutlet.backgroundColor = UIColor .flatNavyBlue()
         
-        
-        // Lite ändringar flr github
         navigationItem.title = "Welcome"
     }
     @IBAction func loginButtonPressed(_ sender: UIButton) {
@@ -32,4 +30,3 @@ class ViewController: UIViewController {
     }
     
 }
-

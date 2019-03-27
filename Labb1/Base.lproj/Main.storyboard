@@ -98,7 +98,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clem-onojeghuo-196232" translatesAutoresizingMaskIntoConstraints="NO" id="ENJ-HA-ti0">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="austin-smart-70350" translatesAutoresizingMaskIntoConstraints="NO" id="ENJ-HA-ti0">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g4r-xB-Mjb" userLabel="TopContainer">
@@ -171,7 +171,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clem-onojeghuo-196232" translatesAutoresizingMaskIntoConstraints="NO" id="MuO-De-Hxs">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="austin-smart-70350" translatesAutoresizingMaskIntoConstraints="NO" id="MuO-De-Hxs">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="inF-SI-G6l" userLabel="TopContainer">
@@ -265,7 +265,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rodion-kutsaev-82627" translatesAutoresizingMaskIntoConstraints="NO" id="srP-Oe-ZW8">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="michal-grosicki-235026 2" translatesAutoresizingMaskIntoConstraints="NO" id="srP-Oe-ZW8">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tsw-AK-WQC" userLabel="TopContainer">
@@ -420,7 +420,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="francesco-gallarotti-2497" translatesAutoresizingMaskIntoConstraints="NO" id="ksq-vG-vkk">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="michal-grosicki-235026 2" translatesAutoresizingMaskIntoConstraints="NO" id="ksq-vG-vkk">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cPQ-9o-06L">
@@ -651,7 +651,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="michal-grosicki-235026" translatesAutoresizingMaskIntoConstraints="NO" id="Ds1-06-XpG">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="michal-grosicki-235026 2" translatesAutoresizingMaskIntoConstraints="NO" id="Ds1-06-XpG">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="795-3v-VZD" userLabel="TopContainer">
@@ -726,7 +726,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="michal-grosicki-235026" translatesAutoresizingMaskIntoConstraints="NO" id="Z6R-EL-454">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="michal-grosicki-235026 2" translatesAutoresizingMaskIntoConstraints="NO" id="Z6R-EL-454">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AtU-aH-AUf" userLabel="TopContainer">
@@ -790,12 +790,9 @@
     <resources>
         <image name="4" width="128" height="128"/>
         <image name="Money" width="128" height="128"/>
-        <image name="austin-smart-70350" width="5230" height="3269"/>
+        <image name="austin-smart-70350" width="400" height="250"/>
         <image name="back_btn_light" width="14" height="25"/>
-        <image name="clem-onojeghuo-196232" width="5400" height="3600"/>
-        <image name="francesco-gallarotti-2497" width="1824" height="1216"/>
-        <image name="michal-grosicki-235026" width="4592" height="3448"/>
-        <image name="rodion-kutsaev-82627" width="2000" height="1333"/>
+        <image name="michal-grosicki-235026 2" width="400" height="300"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="c1s-Wj-Vge"/>

@@ -128,6 +128,8 @@ class ProfileViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         performSegue(withIdentifier: "goToCompare", sender: self)
+        
+        tableView.deselectRow(at: indexPath, animated: true)
     }
     // MARK: - Navigation
 

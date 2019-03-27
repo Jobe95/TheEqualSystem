@@ -29,7 +29,7 @@ class TasksTableViewController: UITableViewController {
         retrieveTasksFromDB()
     }
     func setupBackgroundImage() {
-        let backgroundImage = UIImage(named: "michal-grosicki-235026")?.withRenderingMode(.alwaysOriginal)
+        let backgroundImage = UIImage(named: "michal-grosicki-235026 2")?.withRenderingMode(.alwaysOriginal)
         let imageView = UIImageView(image: backgroundImage)
         tasksTableView.backgroundView = imageView
     }

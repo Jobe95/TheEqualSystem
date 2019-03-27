@@ -35,8 +35,8 @@ class CompareProfilesViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        topInnerContainerView.backgroundColor = UIColor .flatCoffeeColorDark()
-        bottomInnerContainerView.backgroundColor = UIColor(white: 0, alpha: 0.5)
+        topInnerContainerView.backgroundColor = UIColor (white: 0.4, alpha: 0.5)
+        bottomInnerContainerView.backgroundColor = UIColor(white: 0.4, alpha: 0.5)
         
         topInnerContainerView.layer.cornerRadius = 8.0
         bottomInnerContainerView.layer.cornerRadius = 8.0
