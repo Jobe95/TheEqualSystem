@@ -28,7 +28,7 @@ class RegisterUserViewController: UIViewController, UIImagePickerControllerDeleg
 
         // Do any additional setup after loading the view.
         
-        profileImageView.image = UIImage(named: "Money")
+        profileImageView.image = UIImage(named: "icons8-name-96")
         profileImageView.contentMode = .scaleAspectFit
         profileImageView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleProfileImageView)))
         profileImageView.isUserInteractionEnabled = true
